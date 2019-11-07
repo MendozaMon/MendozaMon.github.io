@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 10px 50px;
+  grid-gap: 1px;
+  background-color:  #999966;
+  padding: 1px;
+
+
+}
+
+.grid-container > div {
+  background-color:#999966;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 65px;
+  font-family: "Courier New", Courier, monospace;
+
+}
